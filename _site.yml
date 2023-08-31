@@ -5,5 +5,15 @@ navbar:
   left:
     - text: "Home"
       href: index.html
-    - text: "About"
+    - text: "About Me"
       href: about.html
+  output:
+    html_document:
+    theme: cosmo
+    highlight: textmate
+    include: 
+      after_body: footer.html
+      css: styles.css
+      
+
+      
